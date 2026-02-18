@@ -23,7 +23,7 @@ permissions:
 
 jobs:
   update-browserslist-database:
-    runs-on: ubuntu-latest
+    runs-on: ubicloud-standard-2-ubuntu-2404
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
